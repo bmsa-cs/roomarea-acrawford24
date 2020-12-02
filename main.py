@@ -1,6 +1,6 @@
 """
 RoomArea
-Author:
+Author: Abbie Crawford 
 
 Original assignment by: Edhesive Intro to CS
 
@@ -34,8 +34,7 @@ def right_triangle_area(base, height):
 
   """
 
-  return 0
-
+  return 0.5 * base * height
 
 def rectangle_area(length, width):
   """
@@ -47,8 +46,7 @@ def rectangle_area(length, width):
 
   """
 
-  return 0
-
+  return length * width
 
 def room_area(a, b, c, d, e):
   """
@@ -60,8 +58,7 @@ def room_area(a, b, c, d, e):
 
   """
 
-  return 0
-
+  return a + b + c + d + e
 
 if __name__ == "__main__":
   os.system("clear") # clears the console each time you run
